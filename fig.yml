@@ -1,0 +1,10 @@
+apache:
+ image: vinish/tomcat8
+ ports:
+  - "8080:8080"
+  - "8009:8009"
+
+mysql:
+ image: vinish/apachemod_jk
+ ports:
+  - "80:80"
